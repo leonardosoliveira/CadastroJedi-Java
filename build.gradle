@@ -19,6 +19,12 @@ dependencies {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}
 	compile group: 'javax.validation', name: 'validation-api', version: '2.0.0.Final'
+	// https://mvnrepository.com/artifact/org.springframework.data/spring-data-jpa
+	compile group: 'org.springframework.data', name: 'spring-data-jpa', version: '1.0.0.RELEASE'
+	// https://mvnrepository.com/artifact/javax.persistence/javax.persistence-api
+	compile group: 'javax.persistence', name: 'javax.persistence-api', version: '2.2'
+
+
 
 
 }
